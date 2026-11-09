@@ -1,4 +1,5 @@
 # 🧭 City Soul Navigator
+WAYFINDER
 
 A smart navigation concept that goes beyond the fastest route. City Soul Navigator recommends routes based on **user preferences, mood, accessibility needs, and points of interest**, so every trip through a city feels personal.
 
