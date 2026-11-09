@@ -1,0 +1,554 @@
+Build a modern, interactive **human-centric city navigation web/mobile application** called **Human Navigation System**.
+
+The core concept is:
+
+> **“It’s not just about finding the fastest way; it’s about finding the right way for you.”**
+
+Unlike conventional navigation apps that optimize mainly for distance or travel time, this application should recommend routes based on **human experience**, including mood, comfort, quietness, shade, crowd levels, personal memories, frequently visited places, community experiences, and meaningful locations.
+
+The visual experience should be inspired by the **exploration feel of Pokémon GO's map**, but DO NOT use Pokémon, Eevee, copyrighted characters, or Pokémon branding. Create an original visual identity.
+
+---
+
+## 1. HOME / AR CITY MAP
+
+The main screen should be a highly visual **3D/AR-inspired city map**.
+
+Show:
+
+* Roads and intersections
+* Buildings
+* Parks
+* Trees
+* Water bodies
+* Public spaces
+* Cafés
+* Libraries
+* Bookstores
+* Temples
+* Art spaces
+* Markets
+* Frequently visited places
+* Community locations
+* Personal memory locations
+
+Use floating location markers over the map.
+
+Each marker should communicate the type of experience:
+
+* 🌳 Green = Nature / shaded
+* 🤫 Blue = Quiet
+* ❤️ Pink = Memory
+* 👥 Orange/Pink = Community
+* ☕ Yellow = Café / social
+* 📚 Blue = Learning
+* 🎨 Purple = Art / culture
+* 🛡️ Safety/comfort
+* 📸 Scenic location
+
+Do not make the interface look like a normal Google Maps clone.
+
+The map should feel like an **interactive living city**.
+
+---
+
+## 2. USER AVATAR
+
+Remove all gaming-level systems.
+
+There should be **no XP, levels, coins, battles, raids, Pokémon, or game progression**.
+
+Instead, show a simple customizable **human avatar** representing the user.
+
+The avatar should appear on the map at the user's current location.
+
+Allow users to customize:
+
+* Hair
+* Clothing
+* Backpack
+* Accessories
+* Walking/cycling preference
+
+Keep the avatar friendly and minimal.
+
+---
+
+## 3. PLACES OF INTEREST
+
+Replace the concept of Pokémon GO gyms/raids with **Human Experience Spots**.
+
+These are places that people frequently visit or recommend.
+
+Examples:
+
+* Local Café
+* Favourite Park
+* Popular Study Spot
+* Community Centre
+* Bookstore
+* Temple
+* Street Art
+* Food Street
+* Sunset Point
+* Quiet Street
+* Scenic View
+* Frequently Visited Place
+
+Each location should have:
+
+* Name
+* Distance
+* Category
+* User rating
+* Community tags
+* Photos
+* Short description
+* Number of people who saved/visited it
+* Recommended experiences
+
+Example:
+
+**Quiet Garden**
+120 m away
+🌳 Shaded · 🤫 Quiet · ❤️ Community Favourite
+
+---
+
+## 4. PERSONALIZED ROUTE SYSTEM
+
+The most important feature is **Human-Centric Route Recommendation**.
+
+When the user enters a destination, do not immediately show only the fastest route.
+
+Ask:
+
+### “How do you want to travel today?”
+
+Provide selectable preferences:
+
+* 🤫 Quiet
+* 🌳 Shaded
+* 🛡️ Comfortable
+* 👥 Social
+* ❤️ Memory
+* 🌅 Scenic
+* 🚶 Relaxed
+* ⚡ Fast
+* ✨ Custom
+
+The user can select one or multiple preferences.
+
+Example:
+
+User selects:
+
+**Quiet + Shaded + Scenic**
+
+The application should generate a route optimized around these preferences.
+
+Show:
+
+**Recommended Human Route**
+
+> 22 min · 1.8 km
+> Slightly longer than the fastest route
+> 70% quieter
+> More shaded paths
+> 2 scenic locations
+
+Also show the conventional fastest route for comparison.
+
+---
+
+## 5. ROUTE COMPARISON
+
+Create a visually clear comparison:
+
+### Fastest Route
+
+18 min
+1.4 km
+More traffic
+More crowded
+
+### Human Route
+
+22 min
+1.8 km
+Quieter
+More shade
+2 meaningful places
+
+Make it visually obvious that the application prioritizes **experience instead of simply minimizing time**.
+
+---
+
+## 6. MEMORY MAP
+
+Create a dedicated **Memories** section.
+
+Users can save memories to locations.
+
+A memory can contain:
+
+* Photo
+* Short note
+* Date
+* Mood
+* Location
+* People/category tags
+
+Example:
+
+❤️ **First College Event**
+“Spent the evening here with my friends.”
+
+When navigating through the city, the application can optionally suggest:
+
+> **“You're near a place connected to one of your memories.”**
+
+Allow users to choose whether memories are private or shared with the community.
+
+---
+
+## 7. COMMUNITY EXPERIENCE DATA
+
+Create a community contribution system.
+
+Users can add information about places and routes.
+
+Examples:
+
+**“This street is usually quiet after 5 PM.”**
+
+**“Lots of shade here during the afternoon.”**
+
+**“Good place to walk with friends.”**
+
+**“Usually crowded around 6–8 PM.”**
+
+Users can add tags such as:
+
+* Quiet
+* Crowded
+* Shaded
+* Scenic
+* Comfortable
+* Social
+* Nostalgic
+* Family-friendly
+* Interesting
+* Peaceful
+
+The system should aggregate these contributions to improve route recommendations.
+
+---
+
+## 8. MOOD-BASED NAVIGATION
+
+Add a feature called:
+
+### “How are you feeling?”
+
+Possible moods:
+
+😊 Happy
+😌 Calm
+😴 Tired
+🧠 Need focus
+🌿 Want peace
+👥 Want company
+✨ Want to explore
+
+Based on the selected mood, recommend appropriate routes and places.
+
+For example:
+
+**Feeling: Calm**
+
+Recommended:
+
+> 🌳 Riverside Walk
+> 🤫 Quiet Street
+> 📚 City Library
+
+---
+
+## 9. EXPLORE MODE
+
+Create an Explore screen showing nearby experiences.
+
+Cards should include:
+
+**Riverside Walk**
+340 m
+🌳 Quiet · Scenic
+
+**Local Café**
+180 m
+☕ Social · Popular
+
+**Art Mural**
+90 m
+🎨 Creative · Community Favourite
+
+**Sunset Point**
+380 m
+🌅 Scenic · Memory Spot
+
+Allow users to tap a location and see details.
+
+---
+
+## 10. FILTER SYSTEM
+
+Create a filter button on the map.
+
+Filters:
+
+* Quietness
+* Shade
+* Crowd level
+* Scenic
+* Memories
+* Community
+* Frequently visited
+* Social
+* Accessibility
+* Time of day
+
+Users should be able to combine multiple filters.
+
+---
+
+## 11. FREQUENTLY VISITED PLACES
+
+Instead of gaming “gyms”, create a concept called:
+
+### “Community Hotspots”
+
+These are places frequently visited or saved by users.
+
+Visually represent them as special map markers.
+
+Examples:
+
+⭐ Popular Café
+⭐ Community Park
+⭐ Student Hangout
+⭐ Weekend Market
+⭐ Favourite Study Spot
+
+The marker should communicate that the place has strong community activity.
+
+---
+
+## 12. PROFILE
+
+Create a simple profile page.
+
+Show:
+
+* User avatar
+* Saved places
+* Memories
+* Favourite routes
+* Contributions
+* Preferred navigation styles
+
+Do NOT show:
+
+* XP
+* Levels
+* Leaderboards
+* Coins
+* Battles
+* Game achievements
+
+The application is a **navigation and community experience platform, not a game**.
+
+---
+
+## 13. UI / VISUAL DESIGN
+
+Use a modern, premium interface.
+
+Design language:
+
+* 3D/AR-inspired city map
+* Floating map cards
+* Rounded glassmorphism panels
+* Soft shadows
+* Vibrant but professional colors
+* Smooth animations
+* Large readable typography
+* Minimal clutter
+* Interactive map markers
+* Photo-based location cards
+
+The UI should feel like a combination of:
+
+**AR exploration + modern navigation + community discovery + personal memories.**
+
+Avoid making it look like a traditional GPS application.
+
+---
+
+# TECHNICAL REQUIREMENTS
+
+Build the application with a modular architecture.
+
+### Frontend
+
+Use:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Responsive mobile-first UI
+* Framer Motion for animations
+
+### Maps
+
+Use a map provider such as:
+
+* Mapbox
+* OpenStreetMap
+* Leaflet
+
+Create a custom map style with interactive markers.
+
+### Backend
+
+Use:
+
+* FastAPI or Node.js
+* REST APIs
+* PostgreSQL
+
+### Authentication
+
+Support:
+
+* Email/password
+* Google authentication
+
+### Database
+
+Store:
+
+* Users
+* Avatars
+* Places
+* Routes
+* Memories
+* Community contributions
+* User preferences
+* Mood selections
+* Frequently visited locations
+
+### Recommendation Engine
+
+Create a route scoring system.
+
+Example:
+
+Human Route Score =
+
+**Quietness + Shade + Comfort + Scenic Value + Memory Relevance + Community Preference**
+
+Allow the weights to change depending on the user's selected preferences.
+
+---
+
+# DEMO MODE
+
+Because this is a prototype, include a **Demo City Mode**.
+
+Populate the map with realistic fictional locations and sample community data.
+
+Example locations:
+
+* Riverside Walk
+* Quiet Garden
+* Local Café
+* City Library
+* Art Mural
+* Community Park
+* Bookstore
+* Night Market
+* Sunset Point
+* Memory Spot
+
+The demo should work without requiring real-world GPS data.
+
+---
+
+# MAIN USER FLOW
+
+Implement this complete flow:
+
+**Open App**
+
+↓
+
+**See AR-inspired city map**
+
+↓
+
+**Choose destination**
+
+↓
+
+**“How do you want to travel today?”**
+
+↓
+
+**Select preferences**
+
+↓
+
+**Generate multiple route options**
+
+↓
+
+**Compare Fastest Route vs Human Route**
+
+↓
+
+**Select preferred route**
+
+↓
+
+**Navigate through the city**
+
+↓
+
+**Discover places and community experiences**
+
+↓
+
+**Save a memory / contribute an experience**
+
+↓
+
+**Improve future personalized recommendations**
+
+---
+
+# MOST IMPORTANT PRODUCT PRINCIPLE
+
+The application should demonstrate that:
+
+### Traditional Navigation
+
+**Destination → Fastest Route**
+
+### Human Navigation
+
+**Person → Mood → Needs → Memories → Community → Environment → Destination → Personalized Route**
+
+Make this distinction visually obvious throughout the application.
+
+The final product should feel like a **living map of human experiences**, where the city is not just a collection of roads but a collection of places, memories, emotions, and stories.
