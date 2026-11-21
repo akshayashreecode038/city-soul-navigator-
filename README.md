@@ -46,6 +46,10 @@ cd city-soul-navigator-
 Then follow the setup steps for your environment and run the project.
 
 ---
+## Screenshots 
+
+<img width="1916" height="1045" alt="Screenshot 2026-10-12 092945" src="https://github.com/user-attachments/assets/121c56ee-a300-459f-a73a-f5fa4ea32931" />
+
 
 ## 🔮 Future Improvements
 
